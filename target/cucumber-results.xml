@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="92.631">
+    <testcase classname="Alerts ( handle all alerts)" name="Alerts test" time="29.995">
+        <system-out>
+            <![CDATA[Given Navigate to Website...................................................passed
+And click Alerts and Frame windows..........................................passed
+And click alerts............................................................passed
+And click first alert and verify............................................passed
+And verify second alert  will appear in five seconds........................passed
+And click the third and confirm box will appear.............................passed
+And click the forth and verify the prompt box will appear...................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Alerts ( handle all alerts)" name="interactions" time="12.416">
+        <system-out>
+            <![CDATA[Given Navigate to Website...................................................passed
+And click interactions......................................................passed
+And click droppable menu....................................................passed
+And verify the item is draged and droped....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Alerts ( handle all alerts)" name="Widgets" time="34.088">
+        <system-out>
+            <![CDATA[Given Navigate to Website...................................................passed
+And click widgets...........................................................passed
+And click tool tips and verify the messages.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login functionality" name="correct username wrong password" time="4.304">
+        <system-out>
+            <![CDATA[Given navigate to the website...............................................passed
+And enter your username<"standard_user">....................................passed
+And enter the wrong password<"123">.........................................passed
+And click login button......................................................passed
+Then verify the error message...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login functionality" name="Wrong username right password" time="3.809">
+        <system-out>
+            <![CDATA[Given navigate to the website...............................................passed
+And enter your username<"faruk">............................................passed
+And enter the wrong password<"secret_sauce">................................passed
+And click login button......................................................passed
+Then verify the error message...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login functionality" name="What if username is not passed in?" time="3.786">
+        <system-out>
+            <![CDATA[Given navigate to the website...............................................passed
+And enter your username<"">.................................................passed
+And enter the wrong password<"secret_sauce">................................passed
+And click login button......................................................passed
+Then verify the error message...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login functionality" name="What if password is not passed in?" time="3.738">
+        <system-out>
+            <![CDATA[Given navigate to the website...............................................passed
+And enter your username<"standard_user">....................................passed
+And enter the wrong password<"">............................................passed
+And click login button......................................................passed
+Then verify the error message...............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
